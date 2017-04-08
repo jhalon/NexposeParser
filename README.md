@@ -39,9 +39,9 @@ Step 4: Wait for the parse to complete
 Step 5: Done!
 ```
 
-You can use NexposeParser both on Windows and Linux. You have an option of just running the Python Script, or, if you already want a prepackaged application, you can download the __dist__ folder which contains a __x64__ executable for Windows.
+You can use NexposeParser both on Windows and Linux. You have an option of just running the Python Script, or, if you already want a prepackaged application, you can download the [dist](https://github.com/jhalon/NexposeParser/tree/master/dist) folder which contains a __x64__ executable for Windows with the necessary files.
 
-I will also include a __setup.py__ file which is used to package the python program into an executable file.
+I will also include a [setup.py](https://github.com/jhalon/NexposeParser/blob/master/setup.py) file which is used to package the python program into an executable file.
 
 #### For Linux:
 
@@ -61,7 +61,7 @@ Since this was created using Python v2.7.13 it will not be compatible with Pytho
 
 * Python v2.7.13 - [Download](https://www.python.org/downloads/release/python-2713/)
 
-If you want to utilize the __setup.py__ file to package the application you will need to download __py2exe__. 
+If you want to utilize the [setup.py](https://github.com/jhalon/NexposeParser/blob/master/setup.py) file to package the application you will need to download __py2exe__. 
 
 * py2exe v0.6.9 - [Download](https://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/)
 
