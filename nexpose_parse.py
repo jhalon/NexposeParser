@@ -38,10 +38,13 @@ def main():
     seen_line = []
 
     # Take user input for options
-    file_input = raw_input("Please enter the filename for the NeXpose Scan you want to parse: ")
+    file_raw = raw_input("Please enter the filename for the NeXpose Scan you want to parse: ")
     parse_option = raw_input("Please select a parse option from above: ")
     #save_output = raw_input("Please select a save option from above: ")
     file_output = raw_input("Please enter a name for the output file: ")
+
+    # Take file_raw input and treat it as a raw string - this allows for whitespaces in the path or file
+    file_input = r"%s" % file_raw
 
     print
 
@@ -90,7 +93,7 @@ def main():
         print
 
         # Check parse option and print accordingly
-        while parse_option is not "1" or not "2" or not "3":
+        while parse_option not in ("1", "2", "3"):
             print "[ERROR] Incorrect Parse Option Set. Must be set to 1, 2 or 3!\n"
             time.sleep(1)
             parse_option = raw_input("Please select a parse option from above: ")
