@@ -19,7 +19,7 @@ Having a list of unidentified devices allowed IT Security to submit the list to 
 You can install NexposeParse by cloning this Git Repository
 
 ```console
-$ git https://github.com/jhalon/NexposeParse.git
+$ git clone https://github.com/jhalon/NexposeParse.git
 ```
 
 ## Usage:
